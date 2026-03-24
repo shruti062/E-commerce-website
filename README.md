@@ -1,4 +1,4 @@
-<img width="1920" height="1140" alt="Screenshot 2026-03-15 195123" src="https://github.com/user-attachments/assets/bc2c5db7-0785-410a-abab-c030b6c15841" />🛒 E-Commerce Website
+🛒 E-Commerce Website
 📌 Project Description
 This is a responsive eCommerce website developed using HTML, CSS, and JavaScript. It allows users to browse products, add items to cart, and proceed to checkout.
 
