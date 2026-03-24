@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>MyShop</title>
+<link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<div class="navbar">
+<h2 class="logo">MyShop</h2>
+  <!-- SEARCH BAR -->
+  <div class="search-box">
+    <input type="text" id="searchInput" placeholder="Search products...">
+  </div>
+<div class="nav-links">
+<a href="index.html">Home</a>
+<a href="products.html">Products</a>
+<a href="cart.html">🛒 <span id="cart-count">0</span></a>
+<a href="orders.html">Orders</a>
+<a href="wishlist.html"> ❤️ <span id="wishlist-count">0</span></a>
+<a href="login.html">Login</a>
+</div>
+</div>
+
+<!-- HERO -->
+<div class="hero">
+   
+  <div class="slides" id="slides">
+
+    <img src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9" class="slide">
+    <img src="https://images.unsplash.com/photo-1496181133206-80ce9b88a853" class="slide">
+    <img src="https://images.unsplash.com/photo-1517336714731-489689fd1ca8" class="slide">
+    <img src="https://images.unsplash.com/photo-1572569511254-d8f925fe2cbb?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGVsZWN0cm9uaWMlMjBwcm9kdWN0c3xlbnwwfHwwfHx8MA%3D%3D" class="slide">
+
+  </div>
+<div class="hero-content">
+<h1>Welcome to MyShop</h1>
+<p>Best Deals on Electronics & Accessories</p>
+ <button class="btn" onclick="goProducts()">Shop Now</button>
+  </div>
+
+  <!-- ARROWS -->
+  <button class="prev" onclick="prevSlide()">❮</button>
+  <button class="next" onclick="nextSlide()">❯</button>
+
+  <!-- DOTS -->
+  <div class="dots" id="dots"></div>
+</div>
+
+<!-- PRODUCTS -->
+<h2 class="section-title">Featured Products</h2>
+
+<div class="products" id="products"></div>
+
+<!-- FOOTER -->
+<footer>
+<p>© 2026 MyShop</p>
+</footer>
+
+<script src="../js/products.js"></script>
+<script src="../js/slider.js"></script>
+<script src="../js/common.js"></script>
+
+</body>
+</html>

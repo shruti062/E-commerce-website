@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Product Details</title>
+<link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+
+<div class="navbar">
+
+<h2 class="logo">MyShop</h2>
+
+<div class="nav-links">
+<a href="index.html">Home</a>
+<a href="products.html">Products</a>
+<a href="cart.html">🛒 <span id="cart-count">0</span></a>
+<a href="orders.html">Orders</a>
+<a href="wishlist.html"> ❤️ <span id="wishlist-count">0</span></a>
+<a href="login.html">Login</a>
+</div>
+
+</div>
+
+<!-- PRODUCT DETAIL -->
+
+<div class="product-page">
+
+<div class="product-image">
+<img id="product-img">
+</div>
+
+<div class="product-info">
+
+<h2 id="product-name"></h2>
+
+<p id="product-desc"></p>
+
+<h3 id="product-price"></h3>
+
+<button class="btn" onclick="addToCart()">Add to Cart</button>
+
+</div>
+
+</div>
+
+<script src="../js/product.js"></script>
+<script src="../js/common.js"></script>
+
+</body>
+
+</html>

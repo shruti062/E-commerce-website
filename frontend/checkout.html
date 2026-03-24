@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Checkout</title>
+<link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+
+<div class="navbar">
+<h2 class="logo">MyShop</h2>
+
+<div class="nav-links">
+<a href="index.html">Home</a>
+<a href="products.html">Products</a>
+<a href="cart.html">🛒 <span id="cart-count">0</span></a>
+<a href="orders.html">Orders</a>
+<a href="wishlist.html"> ❤️ <span id="wishlist-count">0</span></a>
+<a href="login.html">Login</a>
+</div>
+</div>
+
+<div class="checkout-box">
+
+<h2>Delivery Address</h2>
+
+<input id="fullName" placeholder="Full Name">
+<input id="phone" placeholder="Phone Number">
+<input id="address" placeholder="Full Address">
+<input id="city" placeholder="City">
+<input id="pincode" placeholder="Pincode">
+<h2>Payment Details</h2>
+
+<input id="cardNumber" placeholder="Card Number (16 digits)" maxlength="16">
+
+<input id="cardName" placeholder="Name on Card">
+
+<input id="expiry" placeholder="MM/YY">
+
+<input id="cvv" placeholder="CVV" maxlength="3">
+
+<button class="checkout-btn" onclick="placeOrder()">
+Place Order
+</button>
+<div id="payment-loader" style="display:none; text-align:center; margin-top:15px;">
+  <p>Processing Payment 💳...</p>
+</div>
+</div>
+
+
+<script src="../js/checkout.js"></script>
+<script src="../js/common.js"></script>
+
+</body>
+</html>
